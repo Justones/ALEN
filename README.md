@@ -16,9 +16,18 @@ This is the link of pre-trained model and test results in [OneDrive](https://1dr
 2. prepare test dataset
 3. run : python main.py --phase=test
 
+requirement: 
+python == 3.7 
+pytorch == 1.0.0
+rawpy
+
+You need change the dataset path when testing your images, and you need pay attention to the pack function in dataset.py when you test raw images captured by other devices.
+
 ---
 
 ## Train
+
+prapare the dataset and train the network. That's all.
 
 ---
 
