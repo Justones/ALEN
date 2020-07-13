@@ -11,18 +11,18 @@ This is the link of pre-trained model and test results in [OneDrive](https://1dr
 
 ---
 
-#Test
+## Test
 1. download the pre-trained model
 2. prepare test dataset
 3. run : python main.py --phase=test
 
 ---
 
-#Train
+## Train
 
 ---
 
-#Citation
+## Citation
 If you use our code, please cite our paper
 
 
