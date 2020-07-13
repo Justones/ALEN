@@ -15,11 +15,11 @@ def get_len(route,phase):
         train_high_data_names.sort()
         return len(train_high_data_names),train_low_data_names,train_high_data_names
     elif phase =='test':
-        #test_low_data_names = glob(route + 'short/1*_00*.ARW')
-        test_low_data_names = glob(route + 'short/*.ARW')
+        test_low_data_names = glob(route + 'short/1*_00*.ARW')
+        #test_low_data_names = glob(route + 'short/*.ARW')
         test_low_data_names.sort()
-        #test_high_data_names = glob(route + 'long/1*_00*.ARW')
-        test_high_data_names = glob(route + 'long/*.ARW')
+        test_high_data_names = glob(route + 'long/1*_00*.ARW')
+        #test_high_data_names = glob(route + 'long/*.ARW')
         test_high_data_names.sort()
         return len(test_low_data_names), test_low_data_names,test_high_data_names
     elif phase == 'eval':
